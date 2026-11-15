@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "donutalerts",
+  "version": "${version}",
+  "name": "Donut Alerts",
+  "description": "Stream-style donation alerts when someone pays you on DonutSMP.",
+  "environment": "client",
+  "entrypoints": { "client": ["com.donutalerts.DonutAlertsClient"] },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
